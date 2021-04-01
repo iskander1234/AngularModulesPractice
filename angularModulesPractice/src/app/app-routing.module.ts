@@ -5,9 +5,9 @@ import {UserComponent} from './admin/user/user.component';
 import {DashboardComponent} from './admin/dashboard/dashboard.component';
 
 const routes: Routes = [
-  {path : '', component : UserComponent},
-  {path : 'user', component : GroupComponent},
-  {path : 'post', component : DashboardComponent}
+  {path : 'user', component : UserComponent},
+  {path : 'group', component : GroupComponent},
+  {path : 'dashboard', component : DashboardComponent}
 ];
 
 @NgModule({
